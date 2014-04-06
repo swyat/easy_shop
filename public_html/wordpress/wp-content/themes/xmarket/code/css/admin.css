@@ -1,0 +1,125 @@
+.etheme-metaboxes .metabox-holder .postbox-container-left{
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.etheme-metaboxes .metabox-holder .postbox-container-left .postbox-container {
+	margin: 0;
+	padding: 0 10px 0 0;
+	float: none;
+}
+.etheme-metaboxes .metabox-holder .postbox-container-right{
+	width: 50%;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.etheme-metaboxes .metabox-holder .postbox-container-right .postbox-container {
+	margin: 0;
+	padding: 0 0 0 10px;
+	float: none;
+}
+.etheme-metaboxes .inside {
+	margin: 10px; 
+}
+
+.etheme-metaboxes .upload_title {
+    display: none;
+}
+.etheme-metaboxes input.upload {
+    width:250px;
+}
+
+.screenshot.etheme,
+.etheme-metaboxes .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:100%;
+	margin-top:3px;
+	margin-bottom:10px;
+}
+.screenshot.etheme img,
+.etheme-metaboxes .screenshot img {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-border-radius:4px;
+	background:#FAFAFA;
+	border-color:#CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+}
+.remove.etheme,
+.etheme-metaboxes .screenshot .remove { 
+	background:url("images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:-4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+
+.etheme-metaboxes input.text-input { 
+    width: 250px;
+}
+
+#icon-options-etheme {
+    background: url(images/etheme2.png);
+}
+
+.etheme-metaboxes .bottom-buttons {
+    text-align: right;
+    clear:both;
+}
+.clear {
+    clear:both;
+}
+
+/* Radio buttons */ 
+
+.radio-set .layout-type {
+    padding:250px 0 0 0;
+    display:block;
+    float:left;
+    margin:0 20px 20px 0;
+    width:170px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+    .radio-set .layout-type.blog1 {
+        background-image:url("images/blog_1.jpg");
+    }
+    .radio-set .layout-type.blog2 {
+        background-image:url("images/blog_2.jpg");
+    }
+    .radio-set .layout-type.blog3 {
+        background-image:url("images/blog_3.jpg");
+    }
+    
+.product-layout.radio-set .layout-type {
+    padding:160px 0 0 0;
+    width:255px;
+}
+
+    .product-layout.radio-set .layout-type.prodl1 {
+        background-image:url("images/product_1.jpg");
+    }
+    .product-layout.radio-set .layout-type.prodl2 {
+        background-image:url("images/product_2.jpg");
+    }
+    .product-layout.radio-set .layout-type.prodl3 {
+        background-image:url("images/product_3.jpg");
+    }
+    .product-layout.radio-set .layout-type.prodl4 {
+        background-image:url("images/product_4.jpg");
+    }
